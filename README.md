@@ -140,13 +140,14 @@ Outcomes addressed in week 3:
 - Reading: An Introduction to Statistical Learning: with Applications in R (ISLR) Ch. 1, 2  
 
 2. [Linear Regression Notebook](notebooks/08_linear_regression.ipynb) *Use for second lecture*  
-- [Linear Regression 2](slides/08_linear_regression.pdf)     
+- [Linear Regression 2](slides/08_linear_regression.pdf)   
+- [Gradient Descent notebook](notebooks/GradientDescent.ipynb)  
 - Reading: ISLR Ch. 3  
 - Reading: PDSH Ch. 5 p. 359-375  
 
 #### Lab Notebooks:  
 
-- [Introduction to Machine Learning with Scikit Learn](labs/Lab3_LinearRegression/Introduction&#32;to&#32;Machine&#32;Learning&#32;with&#32;SciKit&#32;Learn.ipynb) *Submission required*   
+- [Introduction to Machine Learning with Scikit Learn](labs/Lab3_LinearRegression/Introduction&#32;to&#32;Machine&#32;Learning&#32;with&#32;SciKit&#32;Learn.ipynb)    
 - [Supervised Learning Linear Regression](labs/Lab3_LinearRegression/Supervised&#32;Learning&#32;-&#32;&#32;Linear&#32;Regression.ipynb) *Submission required*
 
 Outcomes addressed in week 4:   
@@ -165,15 +166,12 @@ Outcomes addressed in week 4:
 1. [Introduction to Machine Learning with KNN](slides/06_machine_learning_knn.pdf)  
 - Reading: ISLR Ch. 4.6.5  
 
-2. [Model Evaluation and Metrics](slides/07_model_evaluation_and_metrics.pdf)
-- Reading: PDSH Ch. 5 p. 331-375, 390-399   
-- Reading: ISLR Ch. 5  
-
-3. [Logistic Regression Classification](slides/09_logistic_regression_classification.pdf)  
+2. [Logistic Regression Classification](slides/09_logistic_regression_classification.pdf)  
 - Reading: ISLR Ch. 4  
+- Midterm review
 
 #### Lab Notebooks:   
-- [Supervised Learning - Logistic Regression](labs/Lab5_Logistic_Regression/Supervised&#32;Learning&#32;-&#32;Logistic&#32;Regression.ipynb)   *2-week lab, Submission required*   
+- [Supervised Learning - Logistic Regression](labs/Lab5_Logistic_Regression/Supervised&#32;Learning&#32;-&#32;Logistic&#32;Regression.ipynb)   *Submission required*   
 
 Outcomes addressed in week 5:   
 - The ability to perform data visualization and report generation.  
@@ -183,14 +181,19 @@ Outcomes addressed in week 5:
 
 ---
 
-#### Week 6: Midterm, catch up
+#### Week 6: Midterm
 
 #### Lecture:
-1. Midterm review
+1. [Model Evaluation and Metrics](slides/07_model_evaluation_and_metrics.pdf)   
+- [Scikit-learn ROC Curve notebook](notebooks/plot_roc.ipynb)  
+- Reading: PDSH Ch. 5 p. 331-375, 390-399   
+- Reading: ISLR Ch. 5
 
-2. Midterm   
+2. Midterm
+- [Regularization and overfitting](slides/Regularization_and_overfitting.pdf)     
 
 #### Lab Notebooks:   
+- Midterm Exam: [Midterm review study guide](handouts/Midterm-Review.pdf)  
 - [Supervised Learning - Logistic Regression continued](labs/Lab5_Logistic_Regression/Supervised&#32;Learning&#32;-&#32;Logistic&#32;Regression.ipynb)   *2-week lab, Submission required*   
 
 Outcomes addressed in week 6:
@@ -203,29 +206,7 @@ Outcomes addressed in week 6:
 
 ---
 
-#### Week 7: Bayesian Methods, Decision Trees  
-
-#### Lecture:
-1. [Naive Bayes Classification](slides/06_naive_bayes.pdf)  
-- Reading: PDSH Ch. 5 p. 382-389   
-
-2. [Decision Trees](slides/08_decision_trees.pdf)   
-- Reading: PDSH Ch. 5 p. 421-432  
-- Reading: ISLR Ch. 8   
-
-#### Lab Notebooks:   
-- [Decision Trees](labs/Lab7_DecisionTrees/Decision&#32;Trees.ipynb) *Submission required*   
-- Reading: PDSH Ch. 5 p. 421-432   
-
-Outcomes addressed in week 8:  
-- The ability to identify, load, and prepare a data set for a given problem.  
-- The ability to analyze a data set including the ability to understand which data attributes (dimensions) affect the outcome.  
-- The ability to perform supervised learning of prediction models.  
-- The ability to perform data visualization and report generation.  
-- The ability to assess the quality of predictions and inferences.  
-- The ability to apply methods to real world data sets.
-
-#### Week 8: Unsupervised learning, clustering, dimensionality reduction
+#### Week 7: Unsupervised learning, clustering, dimensionality reduction
 
 #### Lecture:
 
@@ -237,9 +218,7 @@ Outcomes addressed in week 8:
 - Reading: ISLR Ch. 10.1, 10.3, 10.5.1    
 
 #### Lab Notebooks:   
-[K-Means Clustering](labs/Lab8_Clustering/K-Means.ipynb) *Submission required*   
-
-[Introduce Data Science Project]()  
+[K-Means Clustering](labs/Lab8_Clustering/Clustering.ipynb) *Submission required*    
 
 Outcomes addressed in week 9:
 - The ability to identify, load, and prepare a data set for a given problem.   
@@ -249,7 +228,54 @@ Outcomes addressed in week 9:
 
 ---
 
-#### Week 9: Dimensionality reduction, collaborative filtering
+#### Week 8: Bayesian Methods, Decision Trees  
+
+#### Lecture:
+1. [Naive Bayes Classification](slides/06_naive_bayes.pdf)  
+- Reading: PDSH Ch. 5 p. 382-389   
+
+2. [Decision Trees](slides/08_decision_trees.pdf)   
+- Reading: PDSH Ch. 5 p. 421-432  
+- Reading: ISLR Ch. 8   
+
+#### Lab Notebooks:   
+- [Introduce Data Science Project]() *Submission required*  
+- [Decision Trees](labs/Lab7_DecisionTrees/Decision&#32;Trees.ipynb)  
+- Reading: PDSH Ch. 5 p. 421-432   
+
+Outcomes addressed in week 8:  
+- The ability to identify, load, and prepare a data set for a given problem.  
+- The ability to analyze a data set including the ability to understand which data attributes (dimensions) affect the outcome.  
+- The ability to perform supervised learning of prediction models.  
+- The ability to perform data visualization and report generation.  
+- The ability to assess the quality of predictions and inferences.  
+- The ability to apply methods to real world data sets.
+
+---
+
+#### Week 9:  Ensemble methods, Random Forests, Bagging, Boosting, XGBoost
+[Validation, Bagging, Boosting, Random Forests](slides/09_validation_boostrap_boosting.pdf)  
+
+#### Lab Notebooks:  
+1. [Random Forests and Boosting](labs/Lab9_DT_RF_Boosting/RF_and_Boosting.ipynb)   
+- Reading: ISLR Ch. 8.2     
+
+[Data Science Project]()   
+
+Outcomes addressed in week 10:
+- Understand the basic process of data science
+- The ability to identify, load, and prepare a data set for a given problem.  
+- The ability to analyze a data set including the ability to understand which data attributes (dimensions) affect the outcome.  
+- The ability to perform basic data analysis and statistical inference.  
+- The ability to perform supervised learning of prediction models.  
+- The ability to perform unsupervised learning.  
+- The ability to perform data visualization and report generation.  
+- The ability to assess the quality of predictions and inferences.  
+- The ability to apply methods to real world data sets.
+
+---
+
+#### Week 10: Dimensionality reduction, collaborative filtering
 
 #### Lecture:
 
@@ -271,26 +297,8 @@ Outcomes addressed in week 9:
 
 ---
 
-#### Week 10:  Optional, advanced methods: Ensemble methods, Random Forests, Bagging, Boosting, Neural Networks
-[Validation, Bagging, Boosting, Random Forests](slides/09_validation_boostrap_boosting.pdf)  
-
-#### Lab Notebooks:  
-1. [Random Forests and Boosting](labs/Lab9_DT_RF_Boosting/RF_and_Boosting.ipynb)   
-- Reading: ISLR Ch. 8.2     
-
-[Data Science Project]()   
-
-Outcomes addressed in week 10:
-- Understand the basic process of data science
-- The ability to identify, load, and prepare a data set for a given problem.  
-- The ability to analyze a data set including the ability to understand which data attributes (dimensions) affect the outcome.  
-- The ability to perform basic data analysis and statistical inference.  
-- The ability to perform supervised learning of prediction models.  
-- The ability to perform unsupervised learning.  
-- The ability to perform data visualization and report generation.  
-- The ability to assess the quality of predictions and inferences.  
-- The ability to apply methods to real world data sets.
-
+#### Week 11: Final Exam     
+Monday, 8:00 AM - 10:00 AM, S107  
 ---
 <!--
 #### Week 10: Advanced methods, Time Series
