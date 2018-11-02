@@ -215,10 +215,13 @@ Outcomes addressed in week 6:
 - Reading: ISLR Ch. 10.5.2  
 
 2. [Clustering - Hierarchical, Probabilistic](slides/12_clustering.pdf)  
-- Reading: ISLR Ch. 10.1, 10.3, 10.5.1    
+- [SciPy Hierarchical Clustering and Dendrogram](notebooks/SciPy_Hierarchical_Clustering_and_Dendrograms.ipynb)   
+- [DBSCAN and clustering comparisons](notebooks/DBASCAN_clustering_comparison.ipynb)   
+- Reading: ISLR Ch. 10.1, 10.3, 10.5.1     
 
 #### Lab Notebooks:   
 [K-Means Clustering](labs/Lab8_Clustering/Clustering.ipynb) *Submission required*    
+[Data Preprocessing and Normalization](notebooks/data_normalization.ipynb)  
 
 Outcomes addressed in week 9:
 - The ability to identify, load, and prepare a data set for a given problem.   
@@ -231,7 +234,8 @@ Outcomes addressed in week 9:
 #### Week 8: Bayesian Methods, Decision Trees  
 
 #### Lecture:
-1. [Naive Bayes Classification](slides/06_naive_bayes.pdf)  
+1. Naive Bayes Classification](slides/06_naive_bayes.pdf)  
+[Naive Bayes Classification](slides/06_naive_bayes.pdf)  
 - Reading: PDSH Ch. 5 p. 382-389   
 
 2. [Decision Trees](slides/08_decision_trees.pdf)   
@@ -239,8 +243,8 @@ Outcomes addressed in week 9:
 - Reading: ISLR Ch. 8   
 
 #### Lab Notebooks:   
-- [Introduce Data Science Project]() *Submission required*  
-- [Decision Trees](labs/Lab7_DecisionTrees/Decision&#32;Trees.ipynb)  
+- [Introduce Data Science Project](labs/final_project/Data_Science_Final_Project.pdf) *Submission required*  
+- [Decision Trees](labs/Lab7_DecisionTrees/Decision&#32;Trees.ipynb) *optional*
 - Reading: PDSH Ch. 5 p. 421-432   
 
 Outcomes addressed in week 8:  
@@ -258,9 +262,7 @@ Outcomes addressed in week 8:
 
 #### Lab Notebooks:  
 1. [Random Forests and Boosting](labs/Lab9_DT_RF_Boosting/RF_and_Boosting.ipynb)   
-- Reading: ISLR Ch. 8.2     
-
-[Data Science Project]()   
+- Reading: ISLR Ch. 8.2       
 
 Outcomes addressed in week 10:
 - Understand the basic process of data science
