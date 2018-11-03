@@ -234,18 +234,18 @@ Outcomes addressed in week 9:
 #### Week 8: Bayesian Methods, Decision Trees  
 
 #### Lecture:
-1. Naive Bayes Classification](slides/06_naive_bayes.pdf)  
-[Naive Bayes Classification](slides/06_naive_bayes.pdf)  
-- Reading: PDSH Ch. 5 p. 382-389   
-
-2. [Decision Trees](slides/08_decision_trees.pdf)   
+1. [Decision Trees](slides/08_decision_trees.pdf)   
 - Reading: PDSH Ch. 5 p. 421-432  
-- Reading: ISLR Ch. 8   
+- Reading: ISLR Ch. 8.1   
+
+2. [Bagging, Random Forests, Boosting](slides/Bagging_RF_Boosting.pdf)   
+- Reading: PDSH Ch. 5 p. 421-432  
+- Reading: ISLR Ch. 8.2  
 
 #### Lab Notebooks:   
 - [Introduce Data Science Project](labs/final_project/Data_Science_Final_Project.pdf) *Submission required*  
 - [Decision Trees](labs/Lab7_DecisionTrees/Decision&#32;Trees.ipynb) *optional*
-- Reading: PDSH Ch. 5 p. 421-432   
+- [Random Forests](notebooks/Random-Forests.ipynb) *optional*
 
 Outcomes addressed in week 8:  
 - The ability to identify, load, and prepare a data set for a given problem.  
@@ -257,12 +257,15 @@ Outcomes addressed in week 8:
 
 ---
 
-#### Week 9:  Ensemble methods, Random Forests, Bagging, Boosting, XGBoost
-[Validation, Bagging, Boosting, Random Forests](slides/09_validation_boostrap_boosting.pdf)  
+#### Week 9:  XGBoost, Time Series
 
 #### Lab Notebooks:  
-1. [Random Forests and Boosting](labs/Lab9_DT_RF_Boosting/RF_and_Boosting.ipynb)   
-- Reading: ISLR Ch. 8.2       
+1. [Gradient Boosting, XGBoost](slides/gradient_boosting.ipynb)  
+- [Random Forests](notebooks/Random-Forests.ipynb) *optional*
+- [Random Forests and Gradient Boosting](notebooks/XGBoost.ipynb) *optional*  
+- [Ensembling](notebooks/16_ensembling.ipynb) *optional*  
+
+2. [Time Series](notebooks/ARIMA-Forecasting-Intro/AirPassengersPrediction.ipynb) 
 
 Outcomes addressed in week 10:
 - Understand the basic process of data science
@@ -277,21 +280,19 @@ Outcomes addressed in week 10:
 
 ---
 
-#### Week 10: Dimensionality reduction, collaborative filtering
+#### Week 10: Dimensionality reduction
 
 #### Lecture:
 
 1. [Dimensionality Reduction](slides/09_imensionality_reduction.pdf)  
+- [SVD](labs/Lab6_Classification_PCA/Singular&#32;Value&#32;Decomposition.ipynb) *optional*
+- [PCA](labs/Lab6_Classification_PCA/classification-and-pca-lab.ipynb) *optional*  
 - Reading: MMDS Ch. 9        
 
-2. [Collaborative Filtering](slides/12_collaborative_filtering.pdf)
-- Reading: PDSH Ch. 5 p. 433-444
+2. Final Exam - Thursday 8am-9am S-107   
 
 #### Lab Notebooks:     
-- [SVD](labs/Lab6_Classification_PCA/Singular&#32;Value&#32;Decomposition.ipynb)   
-- [PCA](labs/Lab6_Classification_PCA/classification-and-pca-lab.ipynb)   
-
-[Data Science Project]()  
+Work on Data Science Project     
 
 Outcomes addressed in week 9:   
 - The ability to perform unsupervised learning.  
@@ -299,10 +300,21 @@ Outcomes addressed in week 9:
 
 ---
 
-#### Week 11: Final Exam     
+#### Week 11: Final Project Presentations    
 Monday, 8:00 AM - 10:00 AM, S107  
 ---
 <!--
+
+2. [Collaborative Filtering](slides/12_collaborative_filtering.pdf)
+- Reading: PDSH Ch. 5 p. 433-444
+
+[Validation, Bagging, Boosting, Random Forests](slides/09_validation_boostrap_boosting.pdf)  
+
+1. Naive Bayes Classification](slides/06_naive_bayes.pdf)  
+[Naive Bayes Classification](slides/06_naive_bayes.pdf)  
+- Reading: PDSH Ch. 5 p. 382-389   
+
+
 #### Week 10: Advanced methods, Time Series
 
 Potential topics:  
